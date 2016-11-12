@@ -1,0 +1,15 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bsvc="urn:com.workday/bsvc">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <bsvc:Put_Time_Clock_Events_Request bsvc:version="v23.2">
+         <!--1 or more repetitions:-->
+         <bsvc:Time_Clock_Event_Data>
+            <bsvc:Employee_ID>21309</bsvc:Employee_ID>
+            <!--Optional:-->
+            <bsvc:Time_Clock_Event_Date_Time>2015-02-19T18:00:00-08:00</bsvc:Time_Clock_Event_Date_Time>
+            <bsvc:Time_Entry_Code>WORKED_TIME</bsvc:Time_Entry_Code>
+            <bsvc:Clock_Event_Type_Reference bsvc:Descriptor="">In</bsvc:Clock_Event_Type_Reference>
+         </bsvc:Time_Clock_Event_Data>
+      </bsvc:Put_Time_Clock_Events_Request>
+   </soapenv:Body>
+</soapenv:Envelope>

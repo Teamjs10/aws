@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Add Time Punches</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel='stylesheet' href='css/calendar.css' title='calendar'>
+        <link rel='stylesheet' href='css/formx.css' title='calendar'>
+        <script src="../jquery/jquery.js"></script>
+        <script language="javascript" src="js/calendar.js"></script>
+        <script language="JavaScript">
+$(document).ready(function(){
+
+         
+         $("#Save").click(function(){
+            $("#punches").attr('action', 'php_sample.php');
+            $("#punches").submit();
+         });
+         
+         
+        
+    });
+    </script>
+    </head>
+    <body>
+        <form class="styleform" action="" method="post" id="punches" name="punches">
+    <h1>Create Puches for Workday Time Tracking</h1>
+<table id="table" width="955px">
+<tbody>
+
+<tr>
+    <td colspan="2">
+        <b><u>Enter a Date Range</u></b><br /><br />
+        Enter a date range for the punches you want to create. <b>Do not span multi weeks</b>
+    </td>
+</tr>
+</tbody>
+</table>
+<br /><br /><br />    
+<table>
+    <tr>
+
+        <td>    
+        <div><label for="fPunch">Day of First Punch:</label>
+            <input type="text" name="fPunch" id="fPunch" class="fieldx required" tabindex="2" />
+            <img src='img/cal/cal.gif' align='absmiddle' onmouseover="fnInitCalendar(this, 'fPunch','close=true', 'style=calendar_blue.css,instance=single')">
+            </div>
+        </td>
+        <td>
+
+        <div><label for="lPunch">Day of Last Punch:</label>
+            <input type="text" name="lPunch" id="lPunch" class="fieldx required" tabindex="2" />
+            <img src='img/cal/cal.gif' align='absmiddle' onmouseover="fnInitCalendar(this, 'lPunch','close=true', 'style=calendar_blue.css,instance=single')">
+            </div>
+
+        </td>
+    </tr>
+    <tr>
+        <td>
+           <input type="checkbox" name="DST" id="DST"> DST - Spring /Summer<br>
+        </td>
+    </tr>
+</table>
+    <br />
+    <img id="Save" name="Save" src="img/save_1.png" alt="Save">
+        </form>
+    </body>
+</html>

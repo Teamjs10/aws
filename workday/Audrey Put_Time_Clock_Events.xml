@@ -1,0 +1,534 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Jack Robinson</Author>
+  <LastAuthor>Jack Robinson</LastAuthor>
+  <Created>2015-07-02T01:53:52Z</Created>
+  <LastSaved>2015-07-02T03:18:25Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>7755</WindowHeight>
+  <WindowWidth>20490</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m118342868">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" ss:Size="8" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#000066" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" ss:Size="14" ss:Color="#000080" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" ss:Size="8" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#75923C" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" ss:Size="8" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#333399" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s74">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" ss:Size="8" ss:Color="#808080"/>
+   <Interior ss:Color="#FFFFCC" ss:Pattern="ThinHorzCross"
+    ss:PatternColor="#FFFFFF"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s75">
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="14"
+    ss:Color="#000000"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Time Clock Events">
+  <Table ss:ExpandedColumnCount="48" ss:ExpandedRowCount="15" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="110.25"/>
+   <Column ss:Width="110.25" ss:Span="1"/>
+   <Column ss:Index="4" ss:StyleID="s62" ss:Width="110.25"/>
+   <Column ss:Width="110.25"/>
+   <Column ss:StyleID="s62" ss:Width="110.25" ss:Span="1"/>
+   <Column ss:Index="8" ss:Width="110.25"/>
+   <Column ss:StyleID="s62" ss:Width="110.25" ss:Span="3"/>
+   <Column ss:Index="13" ss:Width="110.25"/>
+   <Column ss:StyleID="s62" ss:Width="110.25" ss:Span="34"/>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:MergeAcross="47" ss:StyleID="s64"><Data ss:Type="String">Time Clock Events</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Area</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">All</Data></Cell>
+    <Cell ss:MergeAcross="45" ss:StyleID="m118342868"><Data ss:Type="String">Time Clock Event Data+ (Put Time Clock Events Request)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Restrictions</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Required</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Required</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Data related to the time clock event(s) to be processed.</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Optional</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Optional</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Optional</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Optional</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Optional</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Optional</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Optional</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Optional</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Optional</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Optional</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Optional</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Optional</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Optional</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Optional</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Optional</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Optional</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Optional</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Optional</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Optional</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Optional</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Optional</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Optional</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Optional</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Optional</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Optional</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Optional</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Optional</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Optional</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Optional</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Optional</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Optional</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Optional</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Optional</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Optional</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Optional</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Optional</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Optional</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Optional</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Optional</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Optional</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Optional</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Optional</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Optional</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Optional</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Optional</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Format</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Text</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Data related to the time clock event(s) to be processed.</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Text</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Text item</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Y/N</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Boolean item</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Text</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Text item</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Text</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Text item</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">DateTime</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Text</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Text item</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Text</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Text item</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Text</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Text item</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Clock_Event_Type</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Type: Clock_Event_Type</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Number (10,6)</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Text</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Text item</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Text</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Text item</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Text</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Text item</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Text</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Text item</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Text</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Text item</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Text</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Text item</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Text</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Text item</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Text</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Text item</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Text</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Text item</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Text</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Text item</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Text</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Text item</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Text</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Text item</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Text</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Text item</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Text</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Text item</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Text</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Text item</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Text</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Text item</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Text</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Text item</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Text</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Text item</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Text</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Text item</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Text</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Text item</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Text</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Text item</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Text</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Text item</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Text</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Text item</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Text</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Text item</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Text</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Text item</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Text</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Text item</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Text</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Text item</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Text</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Text item</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Text</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Text item</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Text</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Text item</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Text</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Text item</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Text</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Text item</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Text</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Text item</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Text</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Text item</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Text</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Text item</ss:Data></Comment></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Fields</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Spreadsheet Key*</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">You must use the spreadsheet key to coordinate the header information throughout the tabs of the spreadsheet. Keep the same spreadsheet key for each row as you add information in the subsequent tabs. The spreadsheet key is also required to coordinate multiple child rows that roll up to the same parent row.</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Row ID**</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">You must use the row ID to coordinate the data that spreads across multiple rows in the spreadsheet. A change in the value of the ID indicates that a new child object will be created under the same parent object.</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Time Clock Event ID</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Reference ID to identify the Time Clock Event</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Delete Time Clock Event</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Flag to indicate whether the Time Clock Event should be deleted</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Employee ID</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Employee associated with the time clock event.</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Position ID</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Position associated with the time clock event.</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Time Clock Event Date Time</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Date and time of the Time Clock Event.  If you do not include a UTC offset, Workday assumes a 0 offset.</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Time Entry Code</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Time Entry Code specified by worker.</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Project ID</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Project ID specified by worker.</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Task ID</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Project Task ID specified by worker.</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Clock Event Type</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Punch Type: In, Break, Meal, or Out.</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Override Rate</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Override Rate specified by worker.</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Business Unit</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Business Unit specified by worker.</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Cost Center</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Cost Center specified by worker.</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Custom Organization 01</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Custom Organization 01 specified by worker.</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Custom Organization 02</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Custom Organization 02 specified by worker.</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Custom Organization 03</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Custom Organization 03 specified by worker.</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Custom Organization 04</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Custom Organization 04 specified by worker.</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Custom Organization 05</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Custom Organization 05 specified by worker.</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Custom Organization 06</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Custom Organization 06 specified by worker.</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Custom Organization 07</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Custom Organization 07 specified by worker.</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Custom Organization 08</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Custom Organization 08 specified by worker.</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Custom Organization 09</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Custom Organization 09 specified by worker.</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Custom Organization 10</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Custom Organization 10 specified by worker.</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Custom Worktag 01</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Custom Worktag 01 specified by worker.</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Custom Worktag 02</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Custom Worktag 02 specified by worker.</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Custom Worktag 03</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Custom Worktag 03 specified by worker.</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Custom Worktag 04</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Custom Worktag 04 specified by worker.</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Custom Worktag 05</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Custom Worktag 05 specified by worker.</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Custom Worktag 06</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Custom Worktag 06 specified by worker.</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Custom Worktag 07</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Custom Worktag 07 specified by worker.</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Custom Worktag 08</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Custom Worktag 08 specified by worker.</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Custom Worktag 09</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Custom Worktag 09 specified by worker.</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Custom Worktag 10</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Custom Worktag 10 specified by worker.</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Custom Worktag 11</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Custom Worktag 11 specified by worker.</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Custom Worktag 12</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Custom Worktag 12 specified by worker.</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Custom Worktag 13</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Custom Worktag 13 specified by worker.</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Custom Worktag 14</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Custom Worktag 14 specified by worker.</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Custom Worktag 15</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Custom Worktag 15 specified by worker.</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Fund</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Fund specified by worker.</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Gift</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Gift specified by worker</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Grant</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Grant specified by worker.</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Job Profile</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Job Profile specified by worker.</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Location</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Location specified by worker.</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Program</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Program specified by worker.</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Region</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Region specified by worker.</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Comment</Data><Comment><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40">Comment added to time clock event.</ss:Data></Comment></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18.75">
+    <Cell ss:StyleID="s75"/>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:Index="6" ss:StyleID="Default"><Data ss:Type="Number">21114</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">P-00137</Data></Cell>
+    <Cell><Data ss:Type="String">2015-06-29T08:00:00-05:00</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">In</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18.75">
+    <Cell ss:StyleID="s75"/>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:Index="6" ss:StyleID="Default"><Data ss:Type="Number">21114</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">P-00137</Data></Cell>
+    <Cell><Data ss:Type="String">2015-06-29T13:00:00-05:00</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">In</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18.75">
+    <Cell ss:StyleID="s75"/>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:Index="6" ss:StyleID="Default"><Data ss:Type="Number">21114</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">P-00137</Data></Cell>
+    <Cell><Data ss:Type="String">2015-06-30T08:00:00-05:00</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">In</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18.75">
+    <Cell ss:StyleID="s75"/>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:Index="6" ss:StyleID="Default"><Data ss:Type="Number">21114</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">P-00137</Data></Cell>
+    <Cell><Data ss:Type="String">2015-06-30T13:00:00-05:00</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">In</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18.75">
+    <Cell ss:StyleID="s75"/>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:Index="6" ss:StyleID="Default"><Data ss:Type="Number">21114</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">P-00137</Data></Cell>
+    <Cell><Data ss:Type="String">2015-07-01T08:00:00-05:00</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">In</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18.75">
+    <Cell ss:StyleID="s75"/>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:Index="6" ss:StyleID="Default"><Data ss:Type="Number">21114</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">P-00137</Data></Cell>
+    <Cell><Data ss:Type="String">2015-07-01T13:00:00-05:00</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">In</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18.75">
+    <Cell ss:StyleID="s75"/>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:Index="6" ss:StyleID="Default"><Data ss:Type="Number">21114</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">P-00137</Data></Cell>
+    <Cell><Data ss:Type="String">2015-07-02T08:00:00-05:00</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">In</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18.75">
+    <Cell ss:StyleID="s75"/>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:Index="6" ss:StyleID="Default"><Data ss:Type="Number">21114</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">P-00137</Data></Cell>
+    <Cell><Data ss:Type="String">2015-07-02T13:00:00-05:00</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">In</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18.75">
+    <Cell ss:StyleID="s75"/>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:Index="6" ss:StyleID="Default"><Data ss:Type="Number">21114</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">P-00137</Data></Cell>
+    <Cell><Data ss:Type="String">2015-07-03T08:00:00-05:00</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">In</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18.75">
+    <Cell ss:StyleID="s75"/>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:Index="6" ss:StyleID="Default"><Data ss:Type="Number">21114</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">P-00137</Data></Cell>
+    <Cell><Data ss:Type="String">2015-07-03T13:00:00-05:00</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">In</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <LeftColumnVisible>2</LeftColumnVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>5</ActiveRow>
+     <ActiveCol>6</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C12</Range>
+   <Type>List</Type>
+   <CellRangeList/>
+   <Value>&quot;WID,Clock_Event_Type&quot;</Value>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R6C5:R31850C5</Range>
+   <Type>List</Type>
+   <CellRangeList/>
+   <Value>&quot;N,Y&quot;</Value>
+  </DataValidation>
+ </Worksheet>
+</Workbook>

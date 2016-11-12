@@ -1,0 +1,232 @@
+/* form.css */
+body {	
+	background-color: #c4f0f1;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #336699;
+	margin-top: 0.1em;
+	margin-right: 0.1em;
+	margin-bottom: 0.1em;
+	margin-left: 0.1em
+	}
+form {
+	margin-left: 20px;
+	padding: 2px;
+	 }
+
+fieldset {
+        font:	1em Arial, Helvetica, sans-serif;
+	color: #666;
+	background-color: #efefef;
+	padding: 2px;
+	border: solid 1px #d3d3d3;
+	width: 900px; 
+        }
+
+div {
+	font: 0.9em Arial, Helvetica, sans-serif;   
+	font-weight: bold;
+        }
+div.verify {
+    background-color: lightgrey;
+    width: 500px;
+    padding: 25px;
+    border: 25px solid navy;
+    margin-left: auto;
+    margin-right: auto;
+    }
+		
+legend {
+	color: #666;
+	font-weight: bold;
+	font-variant: small-caps;
+	/*background-color: #d3d3d3;*/
+	padding: 2px 6px;
+	margin-left:50px;
+        margin-bottom: 8px; }
+	
+a:link {
+        text-decoration:none;}
+label {
+	
+        font-weight: bold;
+        line-height: normal;
+	text-align: right;
+	margin-right: 5px;
+	position: relative;
+	display: block;
+	float:left;
+        width: 125px; }
+label.incident {
+	
+        font-weight: bold;
+        line-height: normal;
+	text-align: right;
+	margin-right: 5px;
+	position: relative;
+	display: block;
+	float:left;
+        width: 190px; }
+label.company1 {
+	font-weight: bold;
+	line-height: normal;
+	text-align: right;
+	margin-right: 10px;
+	position: relative;
+	display: block;
+	float:left;
+	width: 150px; }
+
+label.fieldlabel {
+	display: inline;
+	float: none;}
+	
+input.formInputText {
+	font-size: .8em;
+	color: #666;
+	background-color: #fee;
+	padding: 2px;
+	border: solid 1px #f66;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	height: 15px; }
+	
+input.formInputText:hover {
+	background-color: #ccffff;
+	border: solid 1px #006600;
+	color: #000; 
+}
+
+input.formInputText:focus {
+	background-color: #ffffff;
+	border: solid 1px #006600;
+	color: #000; 
+}
+
+select.formSelect {
+	font-size: .8em;
+	color: #666;
+	background-color: #fee;
+	padding: 2px;
+	border: solid 1px #f66;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	cursor: pointer; }
+	
+select.formSelect:hover {
+	background-color: #ccffff;
+	border: solid 1px #006600;
+	color: #333; 
+}
+
+select.formSelect:focus {
+	background-color: #ffffff;
+	border: solid 1px #006600;
+	color: #000; 
+}
+
+input.formInputButton {
+	font-size: 1.2em;
+	vertical-align: middle;
+	font-weight: bolder;
+	text-align: center;
+	color: #300;
+	background: #f99;
+	padding: 1px;
+	border: solid 1px #f66;
+	cursor: pointer;
+	float: right; }
+
+p.sInstructions
+{
+    margin: 30px;
+}
+#box-table-a
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+        /* Changed from 45x */
+        margin: 10px;
+	width: 600px;
+	text-align: left;
+	border-collapse: collapse;
+}
+#box-table-a th
+{
+	font-size: 13px;
+        text-align:left;
+	font-weight: normal;
+	padding: 8px;
+	background: #b9c9fe;
+	border-top: 4px solid #aabcfe;
+	border-bottom: 1px solid #fff;
+	color: #039;
+}
+#box-table-a th.codez
+{
+    padding: 3px;
+    border-top: 1px;
+    font-size: 12px;
+}
+
+#box-table-a td
+{
+	padding: 3px;
+	background: #e8edff;
+	border-bottom: 1px solid #fff;
+        color: #669;
+	border-top: 1px solid transparent;
+}
+#box-table-a tr:hover td
+{
+	background: #d0dafd;
+	color: #339;
+}
+
+#box-table-b
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+        /* Changed from 45x */
+        margin: 10px;
+	width: 600px;
+	text-align: left;
+	border-collapse: collapse;
+}
+#box-table-b th
+{
+	font-size: 13px;
+        text-align:left;
+	font-weight: normal;
+	padding: 8px;
+	background: #b9c9fe;
+	border-top: 4px solid #aabcfe;
+	border-bottom: 1px solid #fff;
+	color: #039;
+}
+#box-table-b th.codez
+{
+    padding: 3px;
+    border-top: 1px;
+    font-size: 12px;
+}
+#box-table-b td.addelement
+{
+    color: #FF0000;
+}
+
+#box-table-b td
+{
+	padding: 3px;
+	background: #e8edff;
+	border-bottom: 1px solid #fff;
+        color: #669;
+	border-top: 1px solid transparent;
+}
+
+#box-table-b tr:hover td
+{
+	background: #d0dafd;
+	color: #339;
+}
+div.arrow { background: url('arrows.png') no-repeat scroll 0px -16px; width:16px; height:16px; display:block;}
+div.up { background-position:0px 0px;}

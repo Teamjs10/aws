@@ -1,0 +1,59 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+    <head>
+        <title>Jquery Testing</title>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" href="..img/favicon.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <script src="jquery/jquery-1.11.2.min.js"></script> 
+        <!--  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        -->
+        <script>
+            $(document).ready(function(){
+                var i="jack"
+                $("#employeeid").attr("value", i);
+                $("button").click(function(){
+                   //alert( "Handler for .change() called." );
+                    var x=$("#employeeid").val();
+                    var test=x.concat(" Worked");
+                    //alert(test);
+                    //
+                function_two(test); 
+
+                });
+             });
+             function function_two(x){
+                //$("#employeeid").val()=x;
+                var y=$("#employeeid").val();
+                alert(y)
+                var test=y.concat(" Worked");
+                $("#employeeid").val(test);  
+             }
+             function funOne(){
+                 funTwo();
+             }
+             function funTwo(){
+                 alert('Got Here');
+             }
+        </script>
+    </head>
+    <body>
+        <div>JQuery Fun!</div>
+        <select id="continue" name="classify" tabindex="8">
+             <option value="F">File</option>
+             <option value="N">Hyperlink</option>
+        </select>
+        <br />
+        <p>This is a paragraph.</p>
+        <p>This is another paragraph.</p>
+
+        <button>Click me</button>
+        <br /><br /><br />
+        <input type="button" onClick= "funOne()" value="Input Button1!"><br /><br />
+        <input type="button" onClick= "function_two('2')" value="Input Button 2!"><br /><br />
+        <input type="button" onClick= "function_two('3')" value="Input Button3!">
+        <br /><br /><br /><input name="employeeid" id="employeeid" size="25" maxlength="25" tabindex="2" type="text">
+    </body>
+</html>
