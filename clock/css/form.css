@@ -1,0 +1,327 @@
+/* form.css */
+body {	
+	
+	background-color: #DCDCDC;
+	font-family: Arial, Helvetica, sans-serif;	
+	color: #336699;
+	margin-top: 0.1em;
+        margin-right: 0.1em;
+	margin-bottom: 0.1em;
+	margin-left: 0.1em;
+        //background-image:url('../img/home.png');
+        //background-repeat: no-repeat;
+        //background-position: top left;
+	}
+form {
+	margin-left: 20px;
+	padding: 2px;
+	 }
+form#fixpunch{
+    margin-top: 80px;
+         }
+
+fieldset {
+	font:	1em Arial, Helvetica, sans-serif;
+	color: #666;
+	background-color: #efefef;
+	padding: 2px;
+	border: solid 1px #d3d3d3;
+	width: 450px; }
+div {
+	font: .9em, Arial, Helvetica, sans-serif;
+	font-weight: bold 
+}
+div.phead{
+	 position:absolute;
+	 top:0;
+	 bottom:0;
+	 left:0;
+	 right:0;
+	 background-color: #216eda;
+	height: 60px;
+ }
+div.inner{
+	width:50px;
+	padding: 0px;
+/* This is the key to vertical centering */
+	margin:auto auto;
+	height: 30px; /* unless you want to declare a height */
+	position: absolute;
+	top: 0; bottom: 0;
+	left: 0; right: 0;
+}
+div.tdGang{
+    position: relative;
+    top: 80px;
+}
+div.tdTable{
+	position: relative;
+	top: 80px;
+	width: 300px;
+	margin: auto;
+}
+div.tdKeys{
+    	position: relative;
+	top: 80px;
+	width: 350px;
+	margin: auto;
+}
+label.tdLabel {
+	font-weight: bold;
+	line-height: normal;
+	text-align: right;
+	margin-right: 10px;
+	position: relative;
+	display: block;
+	float:left;
+	width: 75px; }
+        input.formInputText {
+	font-size: .8em;
+	color: #666;
+	background-color: #fee;
+	padding: 2px;
+	border: solid 1px #f66;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	height: 15px; 
+}
+div.verify {
+    background-color: lightgrey;
+    width: 500px;
+    padding: 25px;
+    border: 25px solid navy;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;		
+}
+
+
+legend {
+	color: #666;
+	font-weight: bold;
+	font-variant: small-caps;
+	background-color: #d3d3d3;
+	padding: 2px 6px;
+	margin-bottom: 8px; }
+	
+a:link {
+        text-decoration:none;}
+label {
+	font-weight: bold;
+	line-height: normal;
+	text-align: right;
+	margin-right: 10px;
+	position: relative;
+	display: block;
+	float:left;
+	width: 125px; }
+
+
+label.fieldlabel {
+	display: inline;
+	float: none;}
+	
+input.formInputText {
+	font-size: .8em;
+	color: #666;
+	background-color: #fee;
+	padding: 2px;
+	border: solid 1px #f66;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	height: 15px; }
+	
+input.formInputText:hover {
+	background-color: #ccffff;
+	border: solid 1px #006600;
+	color: #000; 
+}
+
+input.formInputText:focus {
+	background-color: #ffffff;
+	border: solid 1px #006600;
+	color: #000; 
+}
+
+select.formSelect {
+	font-size: .8em;
+	color: #666;
+	background-color: #fee;
+	padding: 2px;
+	border: solid 1px #f66;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	cursor: pointer; }
+	
+select.formSelect:hover {
+	background-color: #ccffff;
+	border: solid 1px #006600;
+	color: #333; 
+}
+
+select.formSelect:focus {
+	background-color: #ffffff;
+	border: solid 1px #006600;
+	color: #000; 
+}
+
+input.formInputButton {
+	font-size: 1.2em;
+	vertical-align: middle;
+	font-weight: bolder;
+	text-align: center;
+	color: #300;
+	background: #f99;
+	padding: 1px;
+	border: solid 1px #f66;
+	cursor: pointer;
+	float: right; }
+/* Calendar Object */
+.calendar-box {
+	display:none;
+	background-color:#fff;
+	border:1px solid #444;
+	position:absolute;
+	width:250px;
+	padding: 0 5px;
+}
+.calendar-box select.calendar-month {
+	width:90px;
+}
+.calendar-box select.calendar-year {
+	width:70px;
+}
+.calendar-box .calendar-cancel {
+	width:100%;
+}
+.calendar-box table td {
+	width:14%;
+}
+.calendar-box .calendar-title {
+	text-align:center;
+}
+.calendar-box a {
+	text-decoration:none;
+}
+.calendar-box .today a {
+	padding:0 5px;
+	margin-left:-5px;
+	background-color:#ffe9c6;
+} 
+.calendar-box .selected a {
+	padding:0 5px;
+	margin-left:-5px;
+	background-color:#c9ff8b;
+}
+p.sInstructions
+{
+    margin: 30px;
+}
+#box-table-a
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+        /* Changed from 45x */
+        margin: 10px;
+	width: 600px;
+	text-align: left;
+	border-collapse: collapse;
+        
+}
+#box-table-a th
+{
+	font-size: 13px;
+        text-align:left;
+	font-weight: normal;
+	padding: 8px;
+	background: #b9c9fe;
+	border-top: 4px solid #aabcfe;
+	border-bottom: 1px solid #fff;
+	color: #039;
+}
+#box-table-a th.codez
+{
+    padding: 3px;
+    border-top: 1px;
+    font-size: 12px;
+}
+
+#box-table-a td
+{
+	padding: 3px;
+	background: #e8edff;
+	border-bottom: 1px solid #fff;
+        color: #669;
+	border-top: 1px solid transparent;
+}
+#box-table-a tr:hover td
+{
+	background: #d0dafd;
+	color: #339;
+}
+
+#box-table-b
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+        /* Changed from 45x */
+        margin: 10px;
+	width: 600px;
+	text-align: left;
+	border-collapse: collapse;
+}
+#box-table-b th
+{
+	font-size: 13px;
+        text-align:left;
+	font-weight: normal;
+	padding: 8px;
+	background: #b9c9fe;
+	border-top: 4px solid #aabcfe;
+	border-bottom: 1px solid #fff;
+	color: #039;
+}
+#box-table-b th.codez
+{
+    padding: 3px;
+    border-top: 1px;
+    font-size: 12px;
+}
+#box-table-b td.addelement
+{
+    color: #FF0000;
+}
+
+#box-table-b td
+{
+	padding: 3px;
+	background: #e8edff;
+	border-bottom: 1px solid #fff;
+        color: #669;
+	border-top: 1px solid transparent;
+}
+
+#box-table-b tr:hover td
+{
+	background: #d0dafd;
+	color: #339;
+}
+/*
+img.itemImg {
+content:url('http://localhost/clock/img/select.png');
+}
+img.Selected {
+    display: none;
+    content:url('http://localhost/clock/img/selected.png');
+}
+*/
+img.all {
+    content:url('http://localhost/clock/img/all.png');
+}
+img.Clear {
+    display: none;
+    content:url('http://localhost/clock/img/clear_1.png');
+}
+.hIn, .hOut {
+    display: none;
+}

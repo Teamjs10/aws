@@ -1,0 +1,17 @@
+function updateEmpID(x){
+        var EmpVal = document.forms("myForm").intempclkid.value;
+        if (EmpVal=="Enter Emp ID") {
+            document.forms("myForm").intempclkid.value = "";
+            EmpVal = ""
+        }
+        document.forms("myForm").intempclkid.value = EmpVal + x;
+    }
+    function submitForm(x){
+        document.forms("myForm").punchtype.value = x;
+        document.forms('myForm').submit();
+    }
+    function deptxfer(){
+        var EmpVal = document.forms("myForm").intempclkid.value;
+        document.forms("myHiddenForm").hempid.value = EmpVal;
+        document.forms('myHiddenForm').submit();
+    }

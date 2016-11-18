@@ -1,0 +1,17 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 16, 2015, 7:01:03 PM
+    Author     : Jack
+*/
+
+img.itemImg {
+content:url('http://localhost/web/clock/img/select.png');
+}
+img.Selected {
+    display: none;
+    content:url('http://localhost/web/clock/img/selected.png');
+}

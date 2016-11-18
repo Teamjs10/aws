@@ -1,0 +1,28 @@
+while($row = $results->fetch(PDO::FETCH_ASSOC)) {
+
+$badge=array(
+	array(badge_id, punch_id, punch_time, punch_type)
+);
+
+
+read a row
+$B = Line Badge #
+Need to add items to array until badge # changes
+
+$pDate = Current Date // Need to think about over day divide
+
+read a row
+$B = Line Badge #
+if($previous_badge<>$B){
+	$previous_badge=$B;
+	unset($badge);
+	$badge = array();
+}
+$badge=array(
+	array(badge_id, punch_id, punch_time, punch_type)
+);
+ array_push($my_array, array(
+        "number" => $data[$key], 
+        "data" => $kkk[1], 
+        "status" => "A",
+    ));
